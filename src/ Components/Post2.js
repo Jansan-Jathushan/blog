@@ -1,7 +1,7 @@
 import React from 'react';
 import data from './data.png';
 
-const Post1 = () => {
+const Post2 = () => {
   return (
     <div className="card" style={{ margin: '40px 150px ', width: '60%' }}>
       <img src={data} alt="Post 1 Image" />
@@ -12,4 +12,4 @@ const Post1 = () => {
   );
 }
 
-export default Post1;
+export default Post2;

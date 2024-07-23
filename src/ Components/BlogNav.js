@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
+
 import logo from './blog.png';
 
 const BlogNav = () => {
@@ -9,13 +12,13 @@ const BlogNav = () => {
         <span>Blog Platform</span>
       </div>
       <div className="right-side">
-      <div className="links">
-        <a href="#post1">JavaScript</a>
-        <a href="#post2">Data Stucture</a>
-        <a href="#post3">Alogorithm</a>
-        <a href="#post4">Computer Network</a>
-      {/* </div> */}
-      {/* <div className="search-bar"> */}
+      <ul className="nav">
+                        <li><Link to="/Post1">Java Script</Link></li>
+                        <li><Link to="/Post2">Data Stucture</Link></li>
+                        <li><Link to="/Post3">Algorithm</Link></li>
+                        <li><Link to="/Post4">Computer Network</Link></li>
+                    </ul>  
+      <div className="search-bar">
         <input type="text" placeholder="Search..." />
       </div>
       </div>

@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(195, 222, 222);
+  background-image: url();
 }
 
 nav {
@@ -27,11 +27,12 @@ nav {
   border-radius: 50%;
 }
 
-.links a {
+link a {
   color: white;
   margin: 0 10px;
   text-decoration: none;
   text-align: right;
+ 
 }
 .links a:active {
   color: #dae85b; 
@@ -46,12 +47,13 @@ nav {
 }
 
 .card {
-  background-color: #fff;
+  background-color: black;
   padding: 10px;
   border: 1px solid #ddd;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(25, 24, 24, 0.237);
   border-radius: 10px;
   width: 90%;
+  color: white;
 }
 
 .card img {

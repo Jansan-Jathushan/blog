@@ -1,7 +1,7 @@
 import React from 'react';
 import cn from './network.jpg';
 
-const Post1 = () => {
+const Post4 = () => {
   return (
     <div className="card" style={{ margin: '40px 150px ', width: '60%' }}>
       <img src={cn} alt="Post 1 Image" />
@@ -14,4 +14,4 @@ const Post1 = () => {
   );
 }
 
-export default Post1;
+export default Post4;
